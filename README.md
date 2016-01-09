@@ -10,6 +10,8 @@
 bower install create-element
 ```
 
+You can use the [resolve-bower-module](https://www.npmjs.com/package/babel-plugin-resolve-bower-module) Babel plugin to resolve modules that are imported with Bower.
+
 ## Usage
 
 ```js
