@@ -1,3 +1,4 @@
 {
+  "plugins": ["resolve-bower-module"],
   "presets": ["es2015"]
 }

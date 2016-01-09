@@ -3,6 +3,7 @@
   "authors": [
     "Walter Rumsby"
   ],
+  "description": "Create DOM elements with a succinct syntax.",
   "main": "src/index.js",
   "moduleType": [
     "es6"
@@ -16,5 +17,8 @@
     "test",
     "tmp",
     "package.json"
-  ]
+  ],
+  "dependencies": {
+    "get-doc": "~1.0.0"
+  }
 }

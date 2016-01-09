@@ -1,13 +1,6 @@
-const RE = /^(\w+)(\#?\w+)?((\.\w+)*)$/;
+import doc from 'get-doc';
 
-function doc () {
-  /*global window, global */
-  if (typeof window !== 'undefined') {
-    return window.document;
-  } else if (typeof global !== 'undefined') {
-    return global.document;
-  }
-}
+const RE = /^(\w+)(\#?\w+)?((\.\w+)*)$/;
 
 export default function (selector='') {
   const matches = selector.match(RE);
