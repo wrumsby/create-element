@@ -26,3 +26,7 @@ document.body.appendChild(frag);
 
 console.log(document.body.innerHTML); // <div id="container"><div class="grid"></div></div>
 ```
+
+## Related Projects
+
+[dom-builder](https://github.com/wrumsby/dom-builder)
