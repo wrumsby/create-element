@@ -1,3 +1,5 @@
+/*eslint-env node */
+/*global document */
 var jsdom = require('jsdom');
 
 global.document = jsdom.jsdom('<!doctype html><html><body></body></html>');

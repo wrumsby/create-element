@@ -4,11 +4,12 @@
   "description": "",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
+  "repository": "github:wrumsby/create-element",
   "scripts": {
     "build": "babel src -d lib",
-    "postbuild": "browserify test/index.js -o tmp/test.js -t [ babelify --presets [ es2015 ] ]",
+    "postbuild": "mkdir -p ./tmp && browserify -e test/index.js -d -t [ babelify --presets [ es2015 ] ] -o tmp/test.js",
     "lint": "eslint .",
-    "test": "mocha",
+    "test": "mocha --reporter tap",
     "watch": "npm-watch"
   },
   "watch": {
